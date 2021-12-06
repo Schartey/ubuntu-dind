@@ -53,4 +53,3 @@ RUN curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOS
 	&& chmod +x /usr/local/bin/docker-compose && docker-compose version
 
 ENTRYPOINT ["startup.sh"]
-CMD ["sh"]
